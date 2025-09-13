@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- table>tr>th*3 -->
+    <table>
+        <tr>
+            <th>Country</th>
+            <th>Country Code</th>
+            <th>Email</th>
+        </tr>
+        <!-- tr>td*3 -->
+        <tr>
+            <td>India</td>
+            <td>IN</td>
+            <td>hello@india.com</td>
+        </tr>
+        <tr>
+            <td>United State of America</td>
+            <td>USA</td>
+            <td>hello@usa.com</td>
+        </tr>
+        <tr>
+            <td>Russia</td>
+            <td>RU</td>
+            <td>hello@russia.com</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <caption>Country Properties</caption>
+        <tr>
+            <th colspan="2">Country</th>
+            <td>India</td>
+            <td>Japan</td>
+        </tr>
+        <tr>
+            <th>Code</th>
+            <td>+91</td>
+            <td>IN</td>
+            <td>JP</td>
+        </tr>
+        <tr>
+            <th>Area</th>
+            <td>+36</td>
+            <td>1,569,000,000</td>
+            <td>2,869,000,000</td>
+        </tr>
+    </table>
+</body>
+</html>
