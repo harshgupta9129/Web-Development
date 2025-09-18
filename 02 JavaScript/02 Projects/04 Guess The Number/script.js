@@ -64,7 +64,9 @@ function displayMessage (message) {
 }
 
 function endGame () {
-    
+    alert(`Remaining Guesses are 0, Tap Ok To Start New Game `)
+    location.reload();
+
 }
 
 function newGame () {
